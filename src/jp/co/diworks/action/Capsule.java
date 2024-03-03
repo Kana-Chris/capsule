@@ -7,6 +7,9 @@ public class Capsule {
 		
 		taro.setName("花子");
 		System.out.println(taro.getName());
+		System.out.println(taro.getAge());
+		taro.setAge(30);
+		System.out.println(taro.getAge());
 	}
 }
 
